@@ -45,7 +45,7 @@ As a corp-dev lead, I'd sit on top of siloed advisor reports — legal, finance,
 
 So I built Due Diligence Agents. 13 AI agents read your entire data room across 9 domains (Legal, Finance, Commercial, Product/Tech, Cybersecurity, HR, Tax, Regulatory, ESG), cross-reference what no single-domain reviewer ever links, and trace every finding to an exact page and a verbatim quote. If a finding can't be verified against the source, the quality gate halts rather than ship it.
 
-What makes it different: the cross-domain connection is the whole point, and forensic citation is the proof. It's open-source (Apache-2.0) and runs locally — your documents only leave as API calls to your own LLM provider. **No vendor lock-in:** run it on the Anthropic API, your own AWS Bedrock or Google Vertex account, or *any* model (GPT, Gemini, a local model) behind an Anthropic-compatible gateway — all by env config, no code change. `dd-agents doctor` verifies your setup before a run, and every run records which provider/model produced the findings. It accelerates your advisors; humans still decide.
+What makes it different: the cross-domain connection is the whole point, and forensic citation is the proof. It's been run on real acquisitions, not just synthetic benchmarks. It's open-source (Apache-2.0) and runs locally — your documents only leave as API calls to your own LLM provider. **No vendor lock-in:** run it on the Anthropic API, your own AWS Bedrock or Google Vertex account, or *any* model (GPT, Gemini, a local model) behind an Anthropic-compatible gateway — all by env config, no code change. `dd-agents doctor` verifies your setup before a run, and every run records which provider/model produced the findings. It accelerates your advisors; humans still decide.
 
 See a sample report (no install): https://zoharbabin.com/due-diligence-agents/sample-report/
 Code: https://github.com/zoharbabin/due-diligence-agents · `pip install dd-agents`
@@ -210,6 +210,8 @@ That's the gap that has cost me weeks of my career: siloed workstreams, three ad
 So I built Due Diligence Agents — an open-source tool that reads an entire data room across nine domains (legal, finance, commercial, tax, regulatory, HR, cyber, product/tech, ESG), then does the part humans rarely have time for: it cross-references findings across those domains and traces every flag to an exact page and a verbatim quote. If it can't cite it, it halts rather than ship something unverified.
 
 It does not replace your lawyers, bankers, or deal team — it accelerates them. Humans still decide. It just connects the dots and hands your advisors a cited starting point instead of a blank page.
+
+It's been run on real acquisitions, not just synthetic benchmarks — the quality gates below exist because of what actually broke on real deals.
 
 Runs locally. Your documents never leave your environment except as API calls to your own LLM provider — and there's no vendor lock-in: run it on the Anthropic API, your own AWS Bedrock or Google Vertex account, or any model via an Anthropic-compatible gateway, all by configuration.
 

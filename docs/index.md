@@ -8,6 +8,8 @@ hide:
 
 **Legal flags a risk. Finance flags another. We connect and cite.** Open-source forensic M&A due diligence — 13 AI agents read your entire data room across 9 specialist domains, cross-reference the findings no single reviewer connects, and trace every one to an exact page and verbatim quote. Quality-gated HTML + Excel reports.
 
+Battle-tested across multiple completed acquisitions — the fail-closed quality gates and verification stack exist because of what actually broke on real deals, not hypothetical edge cases.
+
 ## Quick Start
 
 ```bash

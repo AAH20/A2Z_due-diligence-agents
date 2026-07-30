@@ -51,6 +51,8 @@ https://github.com/user-attachments/assets/03ae7e38-8280-488c-898a-61c1a361bb7d
 
 Finds what gets buried across hundreds of contracts — cross-references it across 9 specialist domains (Legal, Finance, Commercial, ProductTech, Cybersecurity, HR, Tax, Regulatory, ESG) — and traces every finding to an exact page, section, and quote. Use the structured output alongside your advisors to build IC memos, advisor reports, negotiation checklists, or integration plans.
 
+Battle-tested across multiple completed acquisitions, not just synthetic benchmarks — every quality gate and verification layer below was shaped by what actually broke on real deals.
+
 > **This tool does not replace professional advisors.** Legal, financial, and regulatory conclusions should always be made by qualified professionals. This tool helps your team and advisors work faster.
 
 ## Why This Exists
@@ -67,7 +69,7 @@ The numbers tell the story:
 
 This tool runs all nine workstreams in parallel across every document, cross-references findings automatically, and produces structured analysis your team can search, filter, and drill into — the kind of cross-domain picture that used to take weeks to assemble manually.
 
-**Who uses this:** Corp dev teams screening targets, PE firms running portfolio DD, legal teams doing contract review, advisors accelerating workstreams. Anyone who needs to search hundreds of contracts and connect findings across domains.
+**Who uses this:** Corp dev teams screening targets, PE firms running portfolio DD, legal teams doing contract review, advisors accelerating workstreams. Anyone who needs to search hundreds of contracts and connect findings across domains — it's already run on real acquisitions, not just demo data rooms.
 
 ## What You Can Do
 

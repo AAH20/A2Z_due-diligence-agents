@@ -284,7 +284,7 @@ Every severity change records `_recalibrated_from` and `_recalibration_reason` f
 
 ## 8. The Verification Stack
 
-Production retrospective on a real deal (~200 subjects) revealed that all 17 quality failures were instruction-following failures — the LLM ignored prose "MUST" constraints. This led to a fundamental architecture decision: **Python controls flow, LLMs are workers.** Enforcement is programmatic, not prose.
+Production retrospective on real deals (one at ~200 subjects) revealed that all 17 quality failures were instruction-following failures — the LLM ignored prose "MUST" constraints. This led to a fundamental architecture decision: **Python controls flow, LLMs are workers.** Enforcement is programmatic, not prose.
 
 ### Layered hallucination defense
 
