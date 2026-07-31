@@ -81,7 +81,7 @@ dd-agents run deal-config.json
 
 Analyzes every document through 9 domain lenses, cross-references findings, and validates quality through 5 blocking gates. Produces:
 
-- **Interactive HTML report** — Go/No-Go verdict with executive narrative, progressive disclosure (decision → actions → domain details → full evidence), severity filtering
+- **Interactive HTML report** — Go/No-Go verdict with executive narrative, progressive disclosure (decision → actions → domain details → full evidence), severity filtering, and a clause library section that groups findings by canonical clause type (change of control, termination, indemnification, and more) against market-norm comparisons
 - **16-sheet Excel report** — structured findings, cross-references, audit trail for downstream modeling
 - **Per-subject JSON findings** — every finding with severity, citations, cross-references, and governance graph edges
 
@@ -127,6 +127,7 @@ dd-agents portfolio compare                                 # Compare risk acros
 dd-agents export-pdf report.html                            # Export to PDF
 dd-agents log --data-room ./data_room                       # Browse the deal knowledge timeline
 dd-agents lineage --data-room ./data_room                   # Trace finding evolution across runs
+dd-agents diff run_a/ run_b/                                # Compare findings between two run directories
 dd-agents health --data-room ./data_room                    # Check knowledge base integrity
 dd-agents annotate --data-room ./data_room "Confirmed with counsel"  # Add analyst notes
 ```
