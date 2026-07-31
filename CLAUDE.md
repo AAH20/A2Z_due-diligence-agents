@@ -146,6 +146,7 @@ Instead, reference **stable contracts**: interface/class names, file paths, enum
 | `docs/knowledge-architecture.md` | Working on knowledge base — research foundations |
 | `docs/user-guide/model-providers.md` | Configuring provider/model (native + gateway); the LLM seam |
 | `docs/user-guide/provider-coverage.md` | Which flows are verified live on which providers |
+| `RELEASE.md` | Cutting a release — version bump, tag, verifying published artifacts, closing issues |
 
 The Architecture Map and Key Patterns above are the fast orientation to the codebase; the code under `src/dd_agents/` is authoritative for current behavior.
 
@@ -170,7 +171,7 @@ Three workflows in `.github/workflows/`:
 
 Docs drift is enforced inside the unit gate: `tests/unit/test_docs_drift.py` runs in both workflows (no separate job), so a doc that contradicts code-derived architecture counts, the published Docker image, or MCP tool-annotation contracts fails CI.
 
-**To release:** bump version in `pyproject.toml` → commit → `git tag v<version> && git push origin v<version>`
+**To release, follow [RELEASE.md](RELEASE.md) exactly** — bump version in a PR → squash-merge → sync `main` → tag → push → watch the workflow green → write real release notes → verify issues actually auto-closed (squash-merge often only closes one of several listed issues; close the rest explicitly) → re-sync `main` (the Homebrew-formula job pushes back to `main` after the tag).
 
 ## Sensitive Data Policy
 
