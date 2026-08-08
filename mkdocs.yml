@@ -5,6 +5,11 @@ site_author: Zohar Babin
 repo_url: https://github.com/zoharbabin/due-diligence-agents
 repo_name: zoharbabin/due-diligence-agents
 
+# Internal, unpublished notes (one-off investigations, benchmarks) — not part
+# of the public site. Linked from GitHub issues/PRs via the repo blob URL.
+exclude_docs: |
+  research/
+
 theme:
   name: material
   custom_dir: docs/overrides
