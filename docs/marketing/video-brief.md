@@ -35,7 +35,7 @@ Edit a single master timeline, then export three cuts:
 - Subtitles burned in (open captions) — most watch muted; the dialogue/VO must read silently.
 - Terminal + screen recordings at 2× readability: large font (≥18pt), high-contrast theme, cursor-zoom on key moments (Screen Studio / Screen Charm style). Never show a raw 12-pt terminal.
 - Real product, real (synthetic) data — actual `dd-agents` CLI output and the live HTML sample report (`zoharbabin.com/due-diligence-agents/sample-report/`). No faked UI.
-- Brand: iris logo + palette (`docs/marketing/assets/logo.svg`); reuse `social-preview.png` end card.
+- Brand: product-name typography + existing palette; reuse `social-preview.png` end card.
 - Music: tense, minimal, building pulse (think understated electronic) → resolves to a clean, confident button at the CTA. Duck under all VO.
 - Pace: cold open fast; demo section breathes (let one real finding land); CTA crisp.
 
@@ -46,7 +46,7 @@ Edit a single master timeline, then export three cuts:
 - **Avatars (talking faces):** 3 "specialist reviewers" (Legal, Finance, Commercial) — distinct, professional, each on-screen only briefly. Optional 4th: the **Narrator/Founder** avatar (or Zohar's real face for authenticity — recommended for the "why I built this" beat; real founder > avatar for trust).
 - **Screen/terminal recordings:** (a) `dd-agents run` pipeline executing; (b) the HTML report — Go/No-Go verdict, severity filter, drill-down to a finding; (c) the cross-reference view linking two findings across domains; (d) the citation hover showing the exact page + verbatim quote; (e) `pip install dd-agents` one-liner.
 - **Motion graphics:** the "connect-the-dots" animation — two domain nodes on screen, a line drawing between them (this is the visual signature of the whole brand; reuse it as the logo-adjacent motif).
-- **End card:** logo + tagline + `github.com/zoharbabin/due-diligence-agents` + `pip install dd-agents`.
+- **End card:** product name + tagline + `github.com/zoharbabin/due-diligence-agents` + `pip install dd-agents`.
 
 ---
 
@@ -77,7 +77,7 @@ On-screen: **No one connected them.**
 MUSIC: drops out for a half-beat on "the *same* risk."
 
 **[0:20–0:30] ENTER THE PRODUCT — terminal**
-Visual: Hard cut to a clean terminal. Type-on: `dd-agents run project-atlas.json`. The 13-agent pipeline scrolls — domain agents firing in parallel (readable, cursor-zoomed). Logo flicker-in.
+Visual: Hard cut to a clean terminal. Type-on: `dd-agents run project-atlas.json`. The 13-agent pipeline scrolls — domain agents firing in parallel (readable, cursor-zoomed). Product name flickers in.
 VO (confident shift): "So I built the reviewer that *does* read across the room."
 On-screen: **13 AI agents. 9 domains. Every document.**
 
@@ -110,7 +110,7 @@ On-screen (end card): **Due Diligence Agents** · *Legal flags a risk. Finance a
 MUSIC: final confident button.
 
 **[1:22–1:25] TAG**
-Visual: Logo + "See a live report — no install" → sample-report URL.
+Visual: Product name + "See a live report — no install" → sample-report URL.
 
 ---
 
@@ -120,7 +120,7 @@ Cut from the master: **[0:00–0:20]** cold open (three "cleared" + the gap) →
 
 ## 6. Silent loop (~10–12s, GIF/preview)
 
-Pure motion: nine nodes → two light up → line draws between them → citation quote highlights → logo + tagline. No VO. This is the brand's visual signature; reuse the node-connect animation as a recurring motif across all assets.
+Pure motion: nine nodes → two light up → line draws between them → citation quote highlights → product name + tagline. No VO. Reuse the node-connect animation as a recurring motif across all assets.
 
 ---
 
@@ -135,7 +135,7 @@ Pure motion: nine nodes → two light up → line draws between them → citatio
 - [ ] Clean terminal theme, ≥18pt, cursor-zoom tool.
 - [ ] HTML report walkthrough recorded at 1440p+: verdict → filter → drill-down → cross-reference view → citation hover.
 - [ ] 3 specialist avatar clips (short lines) + founder on-camera (or avatar) clip.
-- [ ] Connect-the-dots motion graphic (the signature animation) + end card from `social-preview.png`/logo.
+- [ ] Connect-the-dots motion graphic (the signature animation) + typographic end card from `social-preview.png`.
 - [ ] Music bed (licensed) + SFX (stamp, tick, resolve).
 - [ ] Burned-in caption pass on all three cuts.
 

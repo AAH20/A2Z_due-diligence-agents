@@ -243,7 +243,7 @@ Hey [Name] — shipped my thing today, open-source, on Product Hunt. It's AI age
 
 Read as one mini-walkthrough scroll: **what it is → cross-domain reveal → the cited finding → the report verdict → export & local → install.** Every panel is literally true and uses real assets (live sample report, `docs/marketing/screenshots/`, real terminal output, synthetic "Project Atlas" only).
 
-**Brand system (all 6):** Canvas deep navy `#0a0f1e` (secondary surface `#111827`). Iris signature `#6366f1` → `#8b5cf6` (the "connect" motif, logo, active highlight, headline keyword). Three-domain triad reused from the report: Legal blue `#3b82f6`, Finance green `#10b981`, Commercial violet `#8b5cf6`. Severity: critical red `#dc3545`, high orange `#fd7e14`, good green `#10b981`. Type: one clean grotesk (Inter); headline 56–72px bold, caption 24–28px @ 60–70% opacity; mono (JetBrains/SF Mono) for terminal. Format 1270×760 (16:10), 64px safe margins, logo lockup bottom-left every frame. One focal element per image; iris glow sparing.
+**Visual system (all 6):** Canvas deep navy `#0a0f1e` (secondary surface `#111827`). Accent `#6366f1` → `#8b5cf6` for the "connect" motif, active highlights, and headline keywords. Three-domain triad reused from the report: Legal blue `#3b82f6`, Finance green `#10b981`, Commercial violet `#8b5cf6`. Severity: critical red `#dc3545`, high orange `#fd7e14`, good green `#10b981`. Type: one clean grotesk (Inter); headline 56–72px bold, caption 24–28px @ 60–70% opacity; mono (JetBrains/SF Mono) for terminal. Format 1270×760 (16:10), 64px safe margins, typographic product name bottom-left every frame. One focal element per image; accent glow sparing.
 
 **#1 — Scroll-stopper (thumbnail/lead).** Headline: "Legal flags a risk. Finance another. **We connect and cite.**" Sub: "Open-source forensic M&A due diligence. 13 AI agents read the whole data room across 9 domains." Visual: connect-the-dots still — left Legal-blue card "Change-of-Control trigger," right Finance-green card "Revenue cliff," one bright iris arc joining at a node labeled "SAME RISK." Faint greyed disconnected domain cards behind imply the gap. Headline top third, cards + arc dead center, sub bottom. The arc is the hero.
 
@@ -273,7 +273,7 @@ Below it, three faint real-run status lines: `✓ 9 specialists  ·  ✓ citatio
 | 5 | Export + local | 16-sheet Excel still + local data-flow motif |
 | 6 | Install (CTA) | Real terminal output |
 
-**Cross-frame consistency:** same navy canvas, same iris signature, same logo corner, same type scale, one focal element per frame. The three-domain triad (blue/green/violet) threads through #1, #2, #3 so the cross-domain story carries from thumbnail to proof.
+**Cross-frame consistency:** same navy canvas, same accent treatment, same product-name corner, same type scale, one focal element per frame. The three-domain triad (blue/green/violet) threads through #1, #2, #3 so the cross-domain story carries from thumbnail to proof.
 
 **Asset gaps:** #2/#3/#4 ship today from existing screenshots. #1 (connect-the-dots still) is custom brand art — worth the design time, it's the scroll-stopper. #5's Excel still should be captured from a real Project Atlas export once available. #6 terminal text must be a real capture.
 

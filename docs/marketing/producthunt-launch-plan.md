@@ -12,7 +12,7 @@ Product Hunt is **not dead, but it rewards a coordinated 24-hour campaign backed
 1. **It's a B2-developer-and-prosumer audience.** PH works best for self-serve tools tech people can try in minutes. Our **developer story** (open-source, `pip install`, Docker, forensic AI-agent architecture) is the PH-native hook. The **M&A-professional story** is the depth, but it converts better on LinkedIn/legal channels (Artificial Lawyer, LawNext, r/legaltech — see the broader launch plan in project memory).
 2. **We are a free, open-source project with no signup funnel.** That changes our goal. We are **not** optimizing trial signups — we optimize **GitHub stars, `pip`/Docker installs, newsletter/secondary-channel reach, and durable social proof** (the "Product of the Day" badge + DR-91 backlink). Frame success accordingly.
 
-**Our starting position (verify the live numbers before launch — stars/forks/version drift):** a public repo with a growing star/fork base on [GitHub](https://github.com/zoharbabin/due-diligence-agents) and [Releases](https://github.com/zoharbabin/due-diligence-agents/releases), battle-tested across multiple completed acquisitions — not just synthetic benchmarks. Assets already in hand: interactive [sample report], the golden Project Atlas demo + recordings, full logo set, social preview, and the launch copy pack. This is a strong asset base — most of the asset-production work is *done*; the remaining work is the runway (§4) and scheduling.
+**Our starting position (verify the live numbers before launch — stars/forks/version drift):** a public repo with a growing star/fork base on [GitHub](https://github.com/zoharbabin/due-diligence-agents) and [Releases](https://github.com/zoharbabin/due-diligence-agents/releases), battle-tested across multiple completed acquisitions — not just synthetic benchmarks. Assets already in hand: interactive [sample report], the golden Project Atlas demo + recordings, typographic product identity, social preview, and the launch copy pack. This is a strong asset base — most of the asset-production work is *done*; the remaining work is the runway (§4) and scheduling.
 
 ---
 
@@ -80,7 +80,7 @@ From the Unusual/SGL breakdown and corroborated elsewhere — the algorithm weig
 
 ### T–2 weeks: assets & copy lock (mostly done — audit, don't rebuild)
 - [ ] **Audit existing assets against PH specs** (we already have most):
-  - Logo/thumbnail: square, 240×240+ (have `logo-512.png`, `logo-198.png`). Consider an **animated GIF thumbnail** (<2MB, no blank first frame, animates on hover) — proven to lift feed click-through.
+  - Thumbnail: square, 240×240+. Create a simple typographic product thumbnail. Consider an **animated GIF thumbnail** (<2MB, no blank first frame, animates on hover) — proven to lift feed click-through.
   - Gallery: **4–6 images**, 1270×760+, each = one feature with an embedded caption. Sequence as a mini-walkthrough: *(1) what it is → (2) the 13-agent architecture → (3) a real cited finding → (4) the HTML report verdict → (5) Excel/chat export → (6) `pip install` / Docker one-liner*. Pull from existing `screenshots/` + the sample report.
   - **Demo video:** build from the golden Project Atlas run + the recordings in `recordings/` and the script in `video-brief.md`. Re-cut to **≤ 2:00**, founder-narrated, show the real Atlas run producing the cited cross-domain finding. Upload to **YouTube (public/unlisted, full link)**. Add captions (many watch muted).
 - [ ] **Write & lock the copy** (templates in §7): product name (≤40 char), tagline (≤60 char), description (~260 char), 3 tags (2 broad: `Artificial Intelligence`, `Developer Tools` or `SaaS`; 1 niche: `Legal`/`Finance`), the **maker's first comment**, and the PH-exclusive offer.
@@ -104,7 +104,7 @@ From the Unusual/SGL breakdown and corroborated elsewhere — the algorithm weig
 | Product name | ≤ 40 chars | draft in §7 |
 | Tagline | ≤ 60 chars, benefit-first, no buzzwords | draft in §7 |
 | Description | ~260 chars | draft in §7 |
-| Thumbnail/logo | square, 240×240+, GIF <2MB (no blank 1st frame) | ✅ have `logo-512.png`; GIF = nice-to-have |
+| Thumbnail | square, 240×240+, GIF <2MB (no blank 1st frame) | Create a typographic square; GIF = nice-to-have |
 | Gallery | 4–6 imgs @1270×760+, captioned, walkthrough order | ✅ source from `screenshots/` + sample report |
 | Demo video | YouTube link, ≤2 min, founder-narrated, captioned | ⚠️ build from Atlas run + `recordings/` + `video-brief.md` → YouTube |
 | Tags | 3 (2 broad + 1 niche) | decide: AI + Dev Tools + Legal |

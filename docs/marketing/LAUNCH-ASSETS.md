@@ -56,7 +56,7 @@ filter-bar, integration-playbook, mobile-view) are best recaptured in the screen
 session — see `recordings/screen-recording-guide.md`.
 
 ## Still to produce (creative/manual)
-- Connect-the-dots **motion graphic** (brand signature — built in motion software, not screen-recorded).
+- Connect-the-dots **motion graphic** (recurring explanatory motif — built in motion software, not screen-recorded).
 - **Avatar clips** (3 specialist reviewers) + **founder on-camera** beat.
 - Capture the **HTML report screen walkthrough** + the **Excel** scroll from the captured report.
 - Final **video assembly** per the brief's timecodes; export Hero / Teaser / Silent-loop cuts.
